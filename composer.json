@@ -1,0 +1,22 @@
+{
+    "name": "andre/caixa-eletronico",
+    "autoload": {
+        "psr-4": {
+            "Andre\\CaixaEletronico\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "André Cavalcanti",
+            "email": "andre.cavalcanti.simoes@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
