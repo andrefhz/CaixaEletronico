@@ -52,6 +52,6 @@ test('Transferir valor', function () {
     $conta2 = new ContaCorrente(500, '', 'senhacorrreta2');
 
     expect($conta1)->transferirValor('senhacorreta', 500, $conta2)
-    ->toBe('Saldo transferido com sucesso R$ 500,00');
+    ->toBe('R$ 1.000,00');
 });
 
